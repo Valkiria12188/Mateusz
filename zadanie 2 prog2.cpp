@@ -14,7 +14,7 @@ public:
 private:
 	string  Number;
 	string  Multiplier;
-	//string AddZeros(int, int);
+	
 };
 
 

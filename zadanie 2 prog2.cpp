@@ -13,7 +13,7 @@ public:
 
 private:
 	string  Number;
-	string  Multiplier;
+	
 
 };
 

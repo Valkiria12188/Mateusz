@@ -218,7 +218,7 @@ void druzyna::gracz_wybrany(string imie)  // wybranie imienia gracza do zamiany 
 	}
 }
 
-druzyna::druzyna(string name, string nazwapliku) {
+druzyna::druzyna(string nazwadruzyny, string nazwapliku) {
 
 	ifstream inputFile(nazwapliku);
 	if (inputFile.fail()) {
@@ -226,7 +226,7 @@ druzyna::druzyna(string name, string nazwapliku) {
 		exit(1);
 	}
 	else {
-		_druzyna = name;
+		_druzyna = nazwadruzyny;
 		string lineAsString;
 		while (!inputFile.eof())
 		{

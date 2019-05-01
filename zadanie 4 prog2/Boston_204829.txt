@@ -1,0 +1,5 @@
+Jamal;Kalin;188;speed: 95;shot: 85;jump: 92
+Gordon;Hayard;190;speed:92;shot:85;jump:84
+Jayson;Tatum;195;speed:78;shot:79;jump:96
+Marcus;Smart;178;speed:86;shot:88;jump:80
+AL;Horford;187;speed:72;shot:78;jump:87

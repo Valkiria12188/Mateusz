@@ -1,0 +1,5 @@
+Stephen;Curry;186;speed: 100;shot:90;jump: 75
+Kevin;Durant;200;speed: 90;shot: 95;jump: 90
+DeMar;Cusins;205;speed:75;shot: 80;jump: 100
+Klay;Thompson;175;speed: 95;shot: 90;jump: 80
+Draymond;Green;180;speed: 80;shot: 89;jump: 85

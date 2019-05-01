@@ -1,0 +1,5 @@
+LeBron;James;199;speed: 100;shot: 98;jump: 95
+Lonzo;Ball;180;speed: 85;shot: 90;jump: 84
+Brand;Ingram;190;speed: 80;shot: 78;jump: 95
+Kyle;Kuzma;184;speed: 80;shot: 85;jump: 80
+Rajon;Rondo;170;speed: 82;shot: 90;jump: 89

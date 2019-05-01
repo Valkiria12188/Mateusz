@@ -257,7 +257,6 @@ void druzyna::zapis_do_pliku()
 			{
 				if (j == druzyna_zawodnicy[i]->zawodnik_vector.size() - 1)  lineAsString += druzyna_zawodnicy[i]->zawodnik_vector[j];
 				else  lineAsString += druzyna_zawodnicy[i]->zawodnik_vector[j] + ";";
-
 			}
 			outputFile << lineAsString << endl;
 		}

@@ -132,24 +132,24 @@ int main()
 	Room* room_17 = new Room(2, 4);
 	Room* room_18 = new Room(2, 5);
 																												// wypisanie sasiadów każdego z pomieszczeń
-	room_1->neighbourN = NULL;     room_1->neighbourE = room_2;   room_1->neighbourS = NULL;     room_1->neighbourW = NULL;     room_1->item = NULL;
-	room_2->neighbourN = NULL;     room_2->neighbourE = NULL;     room_2->neighbourS = room_7;   room_2->neighbourW = room_1;   room_2->item = NULL;
-	room_3->neighbourN = NULL;     room_3->neighbourE = NULL;     room_3->neighbourS = room_9;   room_3->neighbourW = NULL;     room_3->item = NULL;
-	room_4->neighbourN = NULL;     room_4->neighbourE = room_5;   room_4->neighbourS = room_11;  room_4->neighbourW = NULL;     room_4->item = NULL;
-	room_5->neighbourN = NULL;     room_5->neighbourE = room_6;   room_5->neighbourS = NULL;     room_5->neighbourW = room_4;   room_5->item = NULL;
-	room_6->neighbourN = NULL;     room_6->neighbourE = NULL;     room_6->neighbourS = room_12;  room_6->neighbourW = room_5;   room_6->item = NULL;
-	room_7->neighbourN = room_2;   room_7->neighbourE = room_8;   room_7->neighbourS = room_14;  room_7->neighbourW = NULL;     room_7->item = NULL;
-	room_8->neighbourN = NULL;     room_8->neighbourE = room_9;   room_8->neighbourS = NULL;     room_8->neighbourW = room_7;   room_8->item = NULL;
-	room_9->neighbourN = room_3;   room_9->neighbourE = room_10;  room_9->neighbourS = room_15;  room_9->neighbourW = room_8;   room_9->item = NULL;
-	room_10->neighbourN = NULL;    room_10->neighbourE = room_11; room_10->neighbourS = NULL;    room_10->neighbourW = room_9;  room_10->item = NULL;
-	room_11->neighbourN = room_4;  room_11->neighbourE = NULL;    room_11->neighbourS = room_16; room_11->neighbourW = room_10; room_11->item = NULL;
-	room_12->neighbourN = room_6;  room_12->neighbourE = NULL;    room_12->neighbourS = room_18; room_12->neighbourW = NULL;    room_12->item = NULL;
-	room_13->neighbourN = NULL;    room_13->neighbourE = room_14; room_13->neighbourS = NULL;    room_13->neighbourW = NULL;    room_13->item = NULL;
-	room_14->neighbourN = room_7;  room_14->neighbourE = NULL;    room_14->neighbourS = NULL;    room_14->neighbourW = room_13; room_14->item = NULL;
-	room_15->neighbourN = room_9;  room_15->neighbourE = NULL;    room_15->neighbourS = NULL;    room_15->neighbourW = NULL;    room_15->item = NULL;
-	room_16->neighbourN = room_11; room_16->neighbourE = room_17; room_16->neighbourS = NULL;    room_16->neighbourW = NULL;    room_16->item = NULL;
-	room_17->neighbourN = NULL;    room_17->neighbourE = room_18; room_17->neighbourS = NULL;    room_17->neighbourW = room_16; room_17->item = NULL;
-	room_18->neighbourN = room_12; room_18->neighbourE = NULL;    room_18->neighbourS = NULL;    room_18->neighbourW = room_17; room_18->item = NULL;
+/*ROOM_1*/	room_1->neighbourN = NULL;     room_1->neighbourE = room_2;   room_1->neighbourS = NULL;     room_1->neighbourW = NULL;     room_1->item = NULL;
+/*ROOM_2*/	room_2->neighbourN = NULL;     room_2->neighbourE = NULL;     room_2->neighbourS = room_7;   room_2->neighbourW = room_1;   room_2->item = NULL;
+/*ROOM_3*/	room_3->neighbourN = NULL;     room_3->neighbourE = NULL;     room_3->neighbourS = room_9;   room_3->neighbourW = NULL;     room_3->item = NULL;
+/*ROOM_4*/	room_4->neighbourN = NULL;     room_4->neighbourE = room_5;   room_4->neighbourS = room_11;  room_4->neighbourW = NULL;     room_4->item = NULL;
+/*ROOM_5*/	room_5->neighbourN = NULL;     room_5->neighbourE = room_6;   room_5->neighbourS = NULL;     room_5->neighbourW = room_4;   room_5->item = NULL;
+/*ROOM_6*/	room_6->neighbourN = NULL;     room_6->neighbourE = NULL;     room_6->neighbourS = room_12;  room_6->neighbourW = room_5;   room_6->item = NULL;
+/*ROOM_7*/	room_7->neighbourN = room_2;   room_7->neighbourE = room_8;   room_7->neighbourS = room_14;  room_7->neighbourW = NULL;     room_7->item = NULL;
+/*ROOM_8*/	room_8->neighbourN = NULL;     room_8->neighbourE = room_9;   room_8->neighbourS = NULL;     room_8->neighbourW = room_7;   room_8->item = NULL;
+/*ROOM_9*/	room_9->neighbourN = room_3;   room_9->neighbourE = room_10;  room_9->neighbourS = room_15;  room_9->neighbourW = room_8;   room_9->item = NULL;
+/*ROOM_10*/	room_10->neighbourN = NULL;    room_10->neighbourE = room_11; room_10->neighbourS = NULL;    room_10->neighbourW = room_9;  room_10->item = NULL;
+/*ROOM_11*/	room_11->neighbourN = room_4;  room_11->neighbourE = NULL;    room_11->neighbourS = room_16; room_11->neighbourW = room_10; room_11->item = NULL;
+/*ROOM_12*/	room_12->neighbourN = room_6;  room_12->neighbourE = NULL;    room_12->neighbourS = room_18; room_12->neighbourW = NULL;    room_12->item = NULL;
+/*ROOM_13*/	room_13->neighbourN = NULL;    room_13->neighbourE = room_14; room_13->neighbourS = NULL;    room_13->neighbourW = NULL;    room_13->item = NULL;
+/*ROOM_14*/	room_14->neighbourN = room_7;  room_14->neighbourE = NULL;    room_14->neighbourS = NULL;    room_14->neighbourW = room_13; room_14->item = NULL;
+/*ROOM_15*/	room_15->neighbourN = room_9;  room_15->neighbourE = NULL;    room_15->neighbourS = NULL;    room_15->neighbourW = NULL;    room_15->item = NULL;
+/*ROOM_16*/	room_16->neighbourN = room_11; room_16->neighbourE = room_17; room_16->neighbourS = NULL;    room_16->neighbourW = NULL;    room_16->item = NULL;
+/*ROOM_17*/	room_17->neighbourN = NULL;    room_17->neighbourE = room_18; room_17->neighbourS = NULL;    room_17->neighbourW = room_16; room_17->item = NULL;
+/*ROOM_18*/	room_18->neighbourN = room_12; room_18->neighbourE = NULL;    room_18->neighbourS = NULL;    room_18->neighbourW = room_17; room_18->item = NULL;
 
 	Room *house[3][6];
 

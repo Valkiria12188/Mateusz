@@ -125,6 +125,10 @@ string Matrix::formatToFile()
 		for (int j = 0; j < cols; j++) 
 		{
 			answer << to_string((int)matrix[i][j]);
+			if (j != cols - 1)
+			{
+				answer << ';';
+			}
 		}
 		if (counter != rows)
 		{
